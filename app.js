@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
       temperatureDegree.textContent = temp_c;
       locationTimezone.textContent = `${name} / ${country}`;
       temperatureDescription.textContent = text;
-      weatherIcon.src = icon;
+      weatherIcon.src = `https:${icon}`;
 
       //   Change temperature
       degreeSection.addEventListener("click", () => {
