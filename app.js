@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
   const temperatureSpan = document.querySelector(".temperature span");
 
   const api =
-    "http://api.weatherapi.com/v1/current.json?key=b28be1a6ef48424c9bf125711222304&q=Skopje&aqi=no";
+    "https://api.weatherapi.com/v1/current.json?key=b28be1a6ef48424c9bf125711222304&q=Skopje&aqi=no";
 
   fetch(api)
     .then((response) => {
